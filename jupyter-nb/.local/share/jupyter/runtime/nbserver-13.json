@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "0.0.0.0",
+  "notebook_dir": "/scratch/pawsey0807/aditi/quokka_devbranch/Analysis/jupyter-nb",
+  "password": false,
+  "pid": 13,
+  "port": 8889,
+  "secure": false,
+  "sock": "",
+  "token": "e2d6710520e9eb9de38ecd1f827c1ea9bd3c9fcc588fb377",
+  "url": "http://0.0.0.0:8889/"
+}
