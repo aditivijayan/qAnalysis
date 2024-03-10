@@ -1,0 +1,15 @@
+/g/data/jh2/av5889/quokka_myrepo/Analysis/figures/MetDepCooling/ZbgHeating//Slice/
+Total time= 9.306203126907349 seconds ---
+
+======================================================================================
+                  Resource Usage on 2024-03-07 14:29:54:
+   Job Id:             110250910.gadi-pbs
+   Project:            jh2
+   Exit Status:        0
+   Service Units:      1.65
+   NCPUs Requested:    96                     NCPUs Used: 96              
+                                           CPU Time Used: 00:04:19        
+   Memory Requested:   300.0GB               Memory Used: 61.14GB         
+   Walltime requested: 04:10:00            Walltime Used: 00:00:31        
+   JobFS requested:    200.0GB                JobFS used: 0B              
+======================================================================================

@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2024-03-07 05:15:48:
+   Job Id:             110229878.gadi-pbs
+   Project:            jh2
+   Exit Status:        2
+   Service Units:      0.16
+   NCPUs Requested:    96                     NCPUs Used: 96              
+                                           CPU Time Used: 00:00:01        
+   Memory Requested:   300.0GB               Memory Used: 31.97MB         
+   Walltime requested: 04:10:00            Walltime Used: 00:00:03        
+   JobFS requested:    200.0GB                JobFS used: 0B              
+======================================================================================

@@ -1,0 +1,613 @@
+/home/120/av5889/.bashrc: line 52: spack/share/spack/setup-env.sh: No such file or directory
+Loading jupyterlab/3.4.3-py3.9
+  Loading requirement: intel-mkl/2020.3.304 python3/3.9.2
+yt : [INFO     ] 2024-03-07 14:29:40,690 Parameters: current_time              = 4892692851797643.0
+yt : [INFO     ] 2024-03-07 14:29:40,690 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,691 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,691 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,702 Parameters: current_time              = 6019555056792629.0
+yt : [INFO     ] 2024-03-07 14:29:40,702 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,703 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,703 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,706 Parameters: current_time              = 8443982302661993.0
+yt : [INFO     ] 2024-03-07 14:29:40,706 Parameters: current_time              = 5685868971139416.0
+yt : [INFO     ] 2024-03-07 14:29:40,706 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,707 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,707 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,707 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,707 Parameters: current_time              = 8300297111847729.0
+yt : [INFO     ] 2024-03-07 14:29:40,707 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,708 Parameters: current_time              = 265259761882771.2
+yt : [INFO     ] 2024-03-07 14:29:40,708 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,708 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,708 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,708 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,708 Parameters: current_time              = 3780220332632007.5
+yt : [INFO     ] 2024-03-07 14:29:40,709 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,709 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,709 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,709 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,709 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,710 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,710 Parameters: current_time              = 0.0
+yt : [INFO     ] 2024-03-07 14:29:40,711 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,711 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,712 Parameters: current_time              = 2025712577748948.2
+yt : [INFO     ] 2024-03-07 14:29:40,712 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,712 Parameters: current_time              = 2393356839359891.0
+yt : [INFO     ] 2024-03-07 14:29:40,712 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,712 Parameters: current_time              = 9102288936750816.0
+yt : [INFO     ] 2024-03-07 14:29:40,713 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,713 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,713 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,713 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,713 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,713 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,714 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,714 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,715 Parameters: current_time              = 7256321660844830.0
+yt : [INFO     ] 2024-03-07 14:29:40,716 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,716 Parameters: current_time              = 9664117765681746.0
+yt : [INFO     ] 2024-03-07 14:29:40,716 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,717 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,717 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,717 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,718 Parameters: current_time              = 5217950928998596.0
+yt : [INFO     ] 2024-03-07 14:29:40,718 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,718 Parameters: current_time              = 9882045767507838.0
+yt : [INFO     ] 2024-03-07 14:29:40,719 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,719 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,719 Parameters: current_time              = 5368922100880911.0
+yt : [INFO     ] 2024-03-07 14:29:40,719 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,719 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,720 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,720 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,720 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,720 Parameters: current_time              = 7958759988647226.0
+yt : [INFO     ] 2024-03-07 14:29:40,720 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,720 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,721 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,721 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,721 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,722 Parameters: current_time              = 1630564949815416.8
+yt : [INFO     ] 2024-03-07 14:29:40,722 Parameters: current_time              = 1078779391608731.6
+yt : [INFO     ] 2024-03-07 14:29:40,723 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,723 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,723 Parameters: current_time              = 3592802928140871.0
+yt : [INFO     ] 2024-03-07 14:29:40,723 Parameters: current_time              = 3182065908563298.0
+yt : [INFO     ] 2024-03-07 14:29:40,723 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,723 Parameters: current_time              = 426142716852870.6
+yt : [INFO     ] 2024-03-07 14:29:40,723 Parameters: current_time              = 8949496398498171.0
+yt : [INFO     ] 2024-03-07 14:29:40,723 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,723 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,723 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: current_time              = 8122146788132202.0
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: current_time              = 1816184202574325.8
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,724 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,725 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,725 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,725 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,725 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,725 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,725 Parameters: current_time              = 4341389865680988.0
+yt : [INFO     ] 2024-03-07 14:29:40,725 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,725 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,726 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,726 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,726 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,727 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,728 Parameters: current_time              = 7612601455293718.0
+yt : [INFO     ] 2024-03-07 14:29:40,728 Parameters: current_time              = 1.0869559228423732e+16
+yt : [INFO     ] 2024-03-07 14:29:40,729 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,729 Parameters: current_time              = 7078145758539121.0
+yt : [INFO     ] 2024-03-07 14:29:40,729 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,729 Parameters: current_time              = 4707811362442922.0
+yt : [INFO     ] 2024-03-07 14:29:40,729 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,729 Parameters: current_time              = 1457425000841479.0
+yt : [INFO     ] 2024-03-07 14:29:40,729 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,729 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,729 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,730 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,730 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,730 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,730 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,730 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,730 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,730 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,731 Parameters: current_time              = 766685231348326.6
+yt : [INFO     ] 2024-03-07 14:29:40,731 Parameters: current_time              = 6706530276184918.0
+yt : [INFO     ] 2024-03-07 14:29:40,731 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,731 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,731 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,731 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,732 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,732 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,732 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,732 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,733 Parameters: current_time              = 4524360452073058.0
+yt : [INFO     ] 2024-03-07 14:29:40,733 Parameters: current_time              = 916964202943069.2
+yt : [INFO     ] 2024-03-07 14:29:40,733 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,733 Parameters: current_time              = 4152189618966421.5
+yt : [INFO     ] 2024-03-07 14:29:40,734 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,734 Parameters: current_time              = 2578713358843728.5
+yt : [INFO     ] 2024-03-07 14:29:40,734 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,734 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,734 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,734 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,734 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,734 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,735 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,735 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,735 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,735 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,739 Parameters: current_time              = 1277305383565064.5
+yt : [INFO     ] 2024-03-07 14:29:40,739 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,740 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,740 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,742 Parameters: current_time              = 8772771619872833.0
+yt : [INFO     ] 2024-03-07 14:29:40,743 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,743 Parameters: current_time              = 6221189455177247.0
+yt : [INFO     ] 2024-03-07 14:29:40,743 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,744 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,744 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,744 Parameters: current_time              = 8619374257909230.0
+yt : [INFO     ] 2024-03-07 14:29:40,744 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,744 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,745 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,745 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,745 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,746 Parameters: current_time              = 9295201289873280.0
+yt : [INFO     ] 2024-03-07 14:29:40,747 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,747 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,748 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,749 Parameters: current_time              = 3369782495786633.0
+yt : [INFO     ] 2024-03-07 14:29:40,750 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,750 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,751 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,751 Parameters: current_time              = 6384394053961386.0
+yt : [INFO     ] 2024-03-07 14:29:40,751 Parameters: current_time              = 6545136385671828.0
+yt : [INFO     ] 2024-03-07 14:29:40,751 Parameters: current_time              = 6910543604191205.0
+yt : [INFO     ] 2024-03-07 14:29:40,752 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,752 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,752 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,752 Parameters: current_time              = 1.064542839719227e+16
+yt : [INFO     ] 2024-03-07 14:29:40,752 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,752 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,752 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,752 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,753 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,753 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,753 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,753 Parameters: current_time              = 5516727902738328.0
+yt : [INFO     ] 2024-03-07 14:29:40,753 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,753 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,754 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,754 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,754 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,755 Parameters: current_time              = 616402894876328.0
+yt : [INFO     ] 2024-03-07 14:29:40,755 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,755 Parameters: current_time              = 1.0442392345182346e+16
+yt : [INFO     ] 2024-03-07 14:29:40,755 Parameters: current_time              = 3972164840167977.0
+yt : [INFO     ] 2024-03-07 14:29:40,755 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,756 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,756 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,756 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,756 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,756 Parameters: current_time              = 1.0057784797458506e+16
+yt : [INFO     ] 2024-03-07 14:29:40,756 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,757 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,757 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,757 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,757 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,757 Parameters: current_time              = 2778938549759884.5
+yt : [INFO     ] 2024-03-07 14:29:40,758 Parameters: current_time              = 5840243040823626.0
+yt : [INFO     ] 2024-03-07 14:29:40,758 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,758 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,758 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,758 Parameters: current_time              = 5084034201915325.0
+yt : [INFO     ] 2024-03-07 14:29:40,758 Parameters: current_time              = 7808929347239199.0
+yt : [INFO     ] 2024-03-07 14:29:40,758 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,759 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,759 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,759 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,759 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,759 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,759 Parameters: current_time              = 9461799596559210.0
+yt : [INFO     ] 2024-03-07 14:29:40,759 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,759 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,760 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,760 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,760 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,760 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,761 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,763 Parameters: current_time              = 7440653274944274.0
+yt : [INFO     ] 2024-03-07 14:29:40,763 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,764 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,764 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,765 Parameters: current_time              = 2984522500828436.0
+yt : [INFO     ] 2024-03-07 14:29:40,766 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,766 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,767 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,767 Parameters: current_time              = 2219648274662482.0
+yt : [INFO     ] 2024-03-07 14:29:40,767 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,768 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,768 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,804 Parameters: current_time              = 1.0234299661367528e+16
+yt : [INFO     ] 2024-03-07 14:29:40,805 Parameters: domain_dimensions         = [ 32  32 256]
+yt : [INFO     ] 2024-03-07 14:29:40,805 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-03-07 14:29:40,806 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:133: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:152: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
+/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/plot_slices.py:163: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  plot = ax[2].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(vz[:,plane,:])/kmps,\
