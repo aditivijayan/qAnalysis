@@ -48,17 +48,17 @@ for egas in egas_arr:
     
 # temperature_table = interpolate.RectBivariateSpline(egas_arr, nH_arr, T)
 
-data_path = os.path.join(scratch, 'sims/' + input_folder)
-output_folder = os.path.join(fig_path, input_folder + '/OutflowRate/')
+data_path = os.path.join(scratch, input_folder)
+output_folder = os.path.join(h5_path, input_folder , 'PhaseOutflowRates/')
 os.chdir(data_path)
 list_file = glob.glob("plt*")
 
-
-def getOutflowRate(queue):
+def getPhaseOutflowRate(queue):
     while True:
         item = queue.get()
         if item is None:
             break
+        
         f = item[0]
         infile = item[1]
         
@@ -77,11 +77,13 @@ def getOutflowRate(queue):
         Ly = (dom_max[1]- dom_min[1])
         Lz = (dom_max[2]- dom_min[2])
         
+        plane = int(ncells[1]*fac/2)
+        lev = 0
     
         inputfile = os.path.join(data_path, f)
         ds   = yt.load(inputfile)
         timestep = ds.current_time.to('Myr')
-        data = ds.covering_grid(level=0, left_edge=dom_min, dims=ds.domain_dimensions)
+        data = ds.covering_grid(level=lev, left_edge=dom_min, dims=ds.domain_dimensions * fac)
 
         rho_gas = np.array(data['gasDensity'])
         egas    = np.array(data['gasEnergy'])
@@ -89,37 +91,83 @@ def getOutflowRate(queue):
         vz = np.array(data['z-GasMomentum'])/rho_gas
         vx = np.array(data['x-GasMomentum'])/rho_gas
         vy = np.array(data['y-GasMomentum'])/rho_gas
+        rhoZ = np.array(data['scalar_1'])
         
+        egas0=egas
+        density = rho_gas
+        cloudy_H_mass_fraction = 1. / (1. + 0.1 * 3.971)
+        rho0 = density*cloudy_H_mass_fraction/hydrogen_mass_cgs
+
+
+        logrho_arr = np.log10(nH_arr[:-1])
+        logrho     = np.log10(rho0)
+        delta_rho  = logrho_arr[1] - logrho_arr[0]
+        idxrho     = (np.floor((logrho - np.amin(logrho_arr))/delta_rho)).astype('int')
+
+        logEgas_arr = np.log10(egas_arr[:-1])
+        logEgas     = np.log10(egas0)
+        delta_egas  = logEgas_arr[1] - logEgas_arr[0]
+        idxegas     = (np.floor((logEgas-np.amin(logEgas_arr))/delta_egas)).astype('int')
+
+
+        wgt_rho  = (logrho - (np.amin(logrho_arr) + delta_rho*idxrho))/delta_rho
+        wgt_egas = (logEgas - (np.amin(logEgas_arr) + delta_egas*idxegas))/delta_egas
+
+        temp = (1.-wgt_rho)*(1.-wgt_egas)* T[tuple(idxegas)  , tuple(idxrho)]   +\
+                wgt_rho *    wgt_egas * T[tuple(idxegas+1), tuple(idxrho+1)] +\
+            (1. -wgt_rho)*    wgt_egas * T[tuple(idxegas+1), tuple(idxrho)]   +\
+                wgt_rho *(1.-wgt_egas)* T[tuple(idxegas)  , tuple(idxrho+1)]  
+
         dA   = np.full(rho_gas.shape, dx * dy)  
-        dVol   = np.full(rho_gas.shape, dx * dy * dz)  
-        pos = (vz*zrange)>0.0
-        neg = (vz*zrange)<0.0
+        dVol   = np.full(rho_gas.shape, dx * dy * dz) 
         net_mass_outflow_rate   = rho_gas * vz * dA
         
+        ZOinit = 8.6e-3
+        MO = 1. * Msun
+        rhoOxy_inj = MO * rhoZ/1.e3 #1.e3 is the normalization of passive_sclar
+        
+        net_mass_outflow_rate   = rho_gas * vz * dA
+        net_oxygen_outflow_rate_inj = rhoOxy_inj *  vz * dA
+
+        hot = (temp>1.e6)
+        warm = (temp<2.e4)
+
+
+        #Mass Outflow rate#
         total_mass_outflow_rate   = np.sum(net_mass_outflow_rate  , axis=(0,1))  
-        pos_mass_rate = np.sum(np.ma.array(net_mass_outflow_rate, mask=~pos) , axis=(0,1))
-        neg_mass_rate = np.sum(np.ma.array(net_mass_outflow_rate, mask=~neg) , axis=(0,1))
-        total_mass                = np.sum(rho_gas  * dVol, axis=(0,1))
+        hot_mass_outflow_rate = np.sum(np.ma.array(net_mass_outflow_rate, mask=~hot), axis=(0,1)).data 
+        warm_mass_outflow_rate = np.sum(np.ma.array(net_mass_outflow_rate, mask=~warm), axis=(0,1)).data 
+        
+        
+        #Inj Oxygen Mass Outflow rate#
+        total_metal_outflow_rate   = np.sum(net_oxygen_outflow_rate_inj  , axis=(0,1))  
+        hot_metal_outflow_rate = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~hot), axis=(0,1)).data 
+        warm_metal_outflow_rate = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~warm), axis=(0,1)).data 
+        
         
         if not os.path.exists(output_folder):
             print(output_folder)
             os.makedirs(output_folder)
         
-        outputfile_name =os.path.join(output_folder, 'outflow_' + f.split('plt')[1] + '.h5')
+        outputfile_name =os.path.join(output_folder, 'phase_outflow_' + f.split('plt')[1] + '.h5')
         
         hfo = h5py.File(outputfile_name, 'w')
-        
-        hfo.create_dataset('TotalOutflowRate' , data=total_mass_outflow_rate)
-        hfo.create_dataset('TotalMass'        , data=total_mass)
-        hfo.create_dataset('PosOutflowRate'   , data=pos_mass_rate)
-        hfo.create_dataset('NegOutflowRate'    , data=neg_mass_rate)
+        hfo.create_dataset('WarmOutflowRate'  , data=warm_mass_outflow_rate)
+        hfo.create_dataset('HotOutflowRate'            , data=hot_mass_outflow_rate)
+        hfo.create_dataset('TotalOutflowRate'            , data=total_mass_outflow_rate)
+
+        hfo.create_dataset('WarmMetOutflowRate'  , data=warm_metal_outflow_rate)
+        hfo.create_dataset('HotMetOutflowRate'            , data=hot_metal_outflow_rate)
+        hfo.create_dataset('TotalMetOutflowRate'            , data=total_metal_outflow_rate)
 
         hfo.create_dataset('Zrange'  , data=zrange)
         hfo.create_dataset('Timestep', data=timestep)
         hfo.close()
 
         print("--------Written file------->>",f)
-
+        
+        
+        
 queue      = Queue()
 start_time = ostime.time()
 listfile = list_file
@@ -129,7 +177,7 @@ infile_list = [infile]*num
 num_workers = os.cpu_count()
 
 
-the_pool = [Process(target=getOutflowRate, args=(queue,)) for i in range(num_workers)]
+the_pool = [Process(target=getPhaseOutflowRate, args=(queue,)) for i in range(num_workers)]
 for p in the_pool:
     p.start()
 

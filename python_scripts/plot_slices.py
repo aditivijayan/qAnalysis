@@ -48,7 +48,7 @@ for egas in egas_arr:
     
 # temperature_table = interpolate.RectBivariateSpline(egas_arr, nH_arr, T)
 
-data_path = os.path.join(scratch, 'sims/' + input_folder)
+data_path = os.path.join(scratch, input_folder)
 output_folder = os.path.join(fig_path, input_folder + '/Slice/')
 os.chdir(data_path)
 list_file = glob.glob("plt*")
