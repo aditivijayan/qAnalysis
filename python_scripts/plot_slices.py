@@ -9,9 +9,8 @@ from config import *
 from functions import *
 import argparse
 
-file = '/g/data/jh2/av5889/quokka_myrepo/quokka/extern/grackle_data_files/input/CloudyData_UVB=HM2012.h5'
-grackle = h5py.File(file)
-array = grackle['CoolingRates/Primordial/MMW'][()]
+grackledata = h5py.File(grackle)
+array = grackledata['CoolingRates/Primordial/MMW'][()]
 #density(1.e-6, 1.e4), redshift(0,15), temperature(10., 1.e9)
 table = array[:,0,:]
 table_nH   = np.logspace(-10, 4, array.shape[0])
@@ -48,7 +47,7 @@ for egas in egas_arr:
     
 # temperature_table = interpolate.RectBivariateSpline(egas_arr, nH_arr, T)
 
-data_path = os.path.join(scratch, 'sims/' + input_folder)
+data_path = os.path.join(scratch, input_folder)
 output_folder = os.path.join(fig_path, input_folder + '/Slice/')
 os.chdir(data_path)
 list_file = glob.glob("plt*")

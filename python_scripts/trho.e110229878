@@ -1,4 +1,0 @@
-/home/120/av5889/.bashrc: line 52: spack/share/spack/setup-env.sh: No such file or directory
-Loading jupyterlab/3.4.3-py3.9
-  Loading requirement: intel-mkl/2020.3.304 python3/3.9.2
-python: can't open file '/g/data/jh2/av5889/quokka_myrepo/Analysis/python_scripts/temp-density-histo.py': [Errno 2] No such file or directory

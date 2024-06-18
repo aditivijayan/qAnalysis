@@ -1,1 +1,5 @@
 figures/
+notebooks/.ipynb_checkpoints/
+h5Data/
+python_scripts/.ipynb_checkpoints/
+config/__pycache__/
