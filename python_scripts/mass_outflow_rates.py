@@ -132,17 +132,19 @@ def getPhaseOutflowRate(queue):
         hot = (temp>1.e6)
         warm = (temp<2.e4)
 
-
+        zout  = (vz*zrange>0.0)
+        hout  = hot * zout
+        wout  = warm * zout
+       
         #Mass Outflow rate#
-        total_mass_outflow_rate   = np.sum(net_mass_outflow_rate  , axis=(0,1))  
-        hot_mass_outflow_rate = np.sum(np.ma.array(net_mass_outflow_rate, mask=~hot), axis=(0,1)).data 
-        warm_mass_outflow_rate = np.sum(np.ma.array(net_mass_outflow_rate, mask=~warm), axis=(0,1)).data 
-        
-        
-        #Inj Oxygen Mass Outflow rate#
-        total_metal_outflow_rate   = np.sum(net_oxygen_outflow_rate_inj  , axis=(0,1))  
-        hot_metal_outflow_rate = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~hot), axis=(0,1)).data 
-        warm_metal_outflow_rate = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~warm), axis=(0,1)).data 
+        total_mass_outflow_rate = np.sum(np.ma.array(net_mass_outflow_rate, mask=~zout), axis=(0,1)).data  
+        hot_mass_outflow_rate   = np.sum(np.ma.array(net_mass_outflow_rate, mask=~hout), axis=(0,1)).data 
+        warm_mass_outflow_rate  = np.sum(np.ma.array(net_mass_outflow_rate, mask=~wout), axis=(0,1)).data 
+
+         #Inj Oxygen Mass Outflow rate#
+        total_metal_outflow_rate  = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~zout), axis=(0,1)).data 
+        hot_metal_outflow_rate    = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~hout), axis=(0,1)).data 
+        warm_metal_outflow_rate   = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~wout), axis=(0,1)).data 
         
         
         if not os.path.exists(output_folder):
