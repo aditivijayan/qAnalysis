@@ -9,3 +9,4 @@ fig_path      = os.path.join(home, 'figures')
 h5_path      = os.path.join(home, 'h5Data/')
 data_home         = os.path.join(qhome, 'quokka/sims/')
 scratch       = '/scratch/jh2/av5889/'
+grackle = '/g/data/jh2/av5889/quokka_myrepo/quokka/extern/grackle_data_files/input/CloudyData_UVB=HM2012.h5'
