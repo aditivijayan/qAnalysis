@@ -10,4 +10,9 @@
 #PBS -l storage=scratch/jh2+gdata/jh2
 #PBS -l wd
 
-python temp_dens_histo.py   DiodeBC/16pc0.5ZSol/
+
+file_name=("sims/AddSNMass/NoMass/"  "sims/AddSNMass/ExtDir" "sims/AddSNMass/HighResAddMass/")
+for file in "${file_name[@]}"
+do
+  python temp_dens_histo.py  "$file"
+done
