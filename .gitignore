@@ -3,3 +3,7 @@ notebooks/.ipynb_checkpoints/
 h5Data/
 python_scripts/.ipynb_checkpoints/
 config/__pycache__/
+config/set_path.py
+__pycache__/functions.cpython-312.pyc
+python_scripts/__pycache__/_init_.cpython-310.pyc
+python_scripts/__pycache__/_init_.cpython-312.pyc

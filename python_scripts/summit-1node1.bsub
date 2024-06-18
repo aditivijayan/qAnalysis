@@ -22,7 +22,7 @@
 module unload python
 module load miniforge3/23.11.0
 source activate ytenv
-file_name=("quokka_21Jun23/" "quokka_21Jun23/ExtDir/" "quokka_21Jun23/Zbg0.2ExtDir/")
+file_name=("DiodeBC/LatestQVersion/")
 for file in "${file_name[@]}"
 do
   jsrun -n1 -r1 -a1 -c1 python3 temp_dens_histo.py "$file"
