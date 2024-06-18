@@ -4,4 +4,4 @@ h5Data/
 python_scripts/.ipynb_checkpoints/
 config/__pycache__/
 config/set_paths.py
-python_scripts/*.sh
+python_scripts/sub-trho.sh
