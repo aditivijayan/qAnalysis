@@ -19,9 +19,11 @@ table_temp = np.logspace(1,  9, array.shape[2])
 
 parser = argparse.ArgumentParser(description='Plot slices for quokka plot files.')
 parser.add_argument('input_folder', type=str, help='Path to input folder containing plt files')
+parser.add_argument('overwrite',  action='store_true', default=0, help='Overwrite existing files, default=0')
 args = parser.parse_args()
 
 input_folder = args.input_folder
+overwrite = args.overwrite
 
 i=0
 bins = 100
@@ -138,14 +140,15 @@ def makeDTHisto(queue):
         
         outputfile_name =os.path.join(output_folder, 'histo_' + f.split('plt')[1] + '.h5') 
 
-        hfo = h5py.File(outputfile_name, 'w')
-        hfo.create_dataset('DensBins'       , data=binx)
-        hfo.create_dataset('TempBins'       , data=biny)
-        hfo.create_dataset('TotalMass'       , data=htot)
-        hfo.create_dataset('OutflowMass'       , data=hout)
-        hfo.create_dataset('Timestep', data=timestep)
-        hfo.close()
-        print("--------Written file------->>",f)
+        if not((os.path.exists(outputfile_name) and overwrite==0)):
+            hfo = h5py.File(outputfile_name, 'w')
+            hfo.create_dataset('DensBins'       , data=binx)
+            hfo.create_dataset('TempBins'       , data=biny)
+            hfo.create_dataset('TotalMass'       , data=htot)
+            hfo.create_dataset('OutflowMass'       , data=hout)
+            hfo.create_dataset('Timestep', data=timestep)
+            hfo.close()
+            print("--------Written file------->>",f)
 
 queue      = Queue()
 start_time = ostime.time()

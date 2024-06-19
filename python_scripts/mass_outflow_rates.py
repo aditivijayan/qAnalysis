@@ -18,10 +18,12 @@ table_nH   = np.logspace(-10, 4, array.shape[0])
 table_temp = np.logspace(1,  9, array.shape[2])
 
 parser = argparse.ArgumentParser(description='Plot slices for quokka plot files.')
-parser.add_argument('input_folder', type=str, help='Path to input folder containing plt files')
+parser.add_argument('--input_folder', type=str, help='Path to input folder containing plt files')
+parser.add_argument('overwrite',  action='store_true', default=0, help='Overwrite existing files, default=0')
 args = parser.parse_args()
 
 input_folder = args.input_folder
+overwrite = args.overwrite
 
 i=0
 bins = 100
@@ -146,28 +148,28 @@ def getPhaseOutflowRate(queue):
         hot_metal_outflow_rate    = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~hout), axis=(0,1)).data 
         warm_metal_outflow_rate   = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~wout), axis=(0,1)).data 
         
-        
         if not os.path.exists(output_folder):
             print(output_folder)
             os.makedirs(output_folder)
         
         outputfile_name =os.path.join(output_folder, 'phase_outflow_' + f.split('plt')[1] + '.h5')
-        
-        hfo = h5py.File(outputfile_name, 'w')
-        hfo.create_dataset('WarmOutflowRate'  , data=warm_mass_outflow_rate)
-        hfo.create_dataset('HotOutflowRate'            , data=hot_mass_outflow_rate)
-        hfo.create_dataset('TotalOutflowRate'            , data=total_mass_outflow_rate)
 
-        hfo.create_dataset('WarmMetOutflowRate'  , data=warm_metal_outflow_rate)
-        hfo.create_dataset('HotMetOutflowRate'            , data=hot_metal_outflow_rate)
-        hfo.create_dataset('TotalMetOutflowRate'            , data=total_metal_outflow_rate)
+        if not((os.path.exists(outputfile_name) and overwrite==0)):
+            hfo = h5py.File(outputfile_name, 'w')
+            hfo.create_dataset('WarmOutflowRate'  , data=warm_mass_outflow_rate)
+            hfo.create_dataset('HotOutflowRate'            , data=hot_mass_outflow_rate)
+            hfo.create_dataset('TotalOutflowRate'            , data=total_mass_outflow_rate)
 
-        hfo.create_dataset('Zrange'  , data=zrange)
-        hfo.create_dataset('Timestep', data=timestep)
-        hfo.close()
+            hfo.create_dataset('WarmMetOutflowRate'  , data=warm_metal_outflow_rate)
+            hfo.create_dataset('HotMetOutflowRate'            , data=hot_metal_outflow_rate)
+            hfo.create_dataset('TotalMetOutflowRate'            , data=total_metal_outflow_rate)
 
-        print("--------Written file------->>",f)
-        
+            hfo.create_dataset('Zrange'  , data=zrange)
+            hfo.create_dataset('Timestep', data=timestep)
+            hfo.close()
+
+            print("--------Written file------->>",f)
+            
         
         
 queue      = Queue()

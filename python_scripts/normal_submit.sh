@@ -13,6 +13,6 @@
 file_name=("sims/AddSNMass/NoMass/"  "sims/AddSNMass/ExtDir" "sims/AddSNMass/HighResAddMass/")
 for file in "${file_name[@]}"
 do
-  python mass_outflow_rates.py  "$file"
+  python mass_outflow_rates.py  --input_folder "$file"
 done
 

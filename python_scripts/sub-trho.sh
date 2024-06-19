@@ -14,5 +14,5 @@
 file_name=("sims/AddSNMass/NoMass/"  "sims/AddSNMass/ExtDir" "sims/AddSNMass/HighResAddMass/")
 for file in "${file_name[@]}"
 do
-  python temp_dens_histo.py  "$file"
+  python temp_dens_histo.py  --input_folder "$file"
 done
