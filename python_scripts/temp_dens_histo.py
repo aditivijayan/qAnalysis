@@ -18,7 +18,7 @@ table_nH   = np.logspace(-10, 4, array.shape[0])
 table_temp = np.logspace(1,  9, array.shape[2])
 
 parser = argparse.ArgumentParser(description='Plot slices for quokka plot files.')
-parser.add_argument('input_folder', type=str, help='Path to input folder containing plt files')
+parser.add_argument('--input_folder', type=str, help='Path to input folder containing plt files')
 parser.add_argument('overwrite',  action='store_true', default=0, help='Overwrite existing files, default=0')
 args = parser.parse_args()
 
