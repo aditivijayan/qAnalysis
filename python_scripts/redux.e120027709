@@ -1,0 +1,7 @@
+/home/120/av5889/.bashrc: line 52: spack/share/spack/setup-env.sh: No such file or directory
+Loading jupyterlab/3.4.3-py3.9
+  Loading requirement: intel-mkl/2020.3.304 python3/3.9.2
+yt : [INFO     ] 2024-07-08 22:03:18,642 Parameters: current_time              = 628814910351242.9
+yt : [INFO     ] 2024-07-08 22:03:18,642 Parameters: domain_dimensions         = [ 512  512 4096]
+yt : [INFO     ] 2024-07-08 22:03:18,642 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2024-07-08 22:03:18,642 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]

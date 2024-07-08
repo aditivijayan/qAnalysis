@@ -20,7 +20,9 @@ i=0
 bins = 100
 egas_arr = np.logspace(-21., -5., bins)
 nH_arr   = np.logspace(-6.0, 4.0, int(bins))
+temp_arr   = np.logspace(1.0, 9.0, int(bins))
 T = np.zeros((egas_arr.shape[0],nH_arr.shape[0]))
+Mu_mu = np.zeros((temp_arr.shape[0],nH_arr.shape[0]))
 
 for egas in egas_arr:
     j=0
@@ -37,12 +39,19 @@ for egas in egas_arr:
         j+=1
     i+=1
 
-    
-# temperature_table = interpolate.RectBivariateSpline(egas_arr, nH_arr, T)
+
+mu_interp = interpolate.interp2d(table_temp, table_nH, table,\
+                              kind='linear', copy=True, bounds_error=False, fill_value=None)
+i=0
+for ttemp in temp_arr:
+    j=0
+    for nH in nH_arr:
+        Mu_mu[i,j] = mu_interp(ttemp, nH)
+        j+=1
+    i+=1    
 
 
-data_path = os.path.join(qhome, 'quokka/sims/N4Gpu/2pcNoAMR/Setonix')
-
+data_path = '/g/data/jh2/av5889/quokka_myrepo/quokka/sims/N4Gpu/2pcNoAMR/PltFiles/'
 infile   = os.path.join(data_path, 'metal_uniform_512.in')
 dom_min, dom_max, ncells = getdomain(infile)
 fac = 1
@@ -51,7 +60,8 @@ xrange = np.linspace(dom_min[0], dom_max[0], (fac*int(ncells[0])))
 yrange = np.linspace(dom_min[1], dom_max[1], (fac*int(ncells[1])))
 
 
-f = 'plt9340000/'
+f = 'plt3005000/'
+f = 'plt2200000/'
 inputfile = os.path.join(data_path, f)
 ds   = yt.load(inputfile)
 ds.current_time.to('Myr')
@@ -61,18 +71,22 @@ data = ds.covering_grid(level=lev, left_edge=dom_min, dims=ds.domain_dimensions 
 timestep = ds.current_time.to('Myr')
 
 rho_gas = np.array(data['gasDensity'])
-egas    = np.array(data['gasEnergy'])
 eint    = np.array(data['gasInternalEnergy'])
-vz = np.array(data['z-GasMomentum'])/rho_gas
-vx = np.array(data['x-GasMomentum'])/rho_gas
-vy = np.array(data['y-GasMomentum'])/rho_gas
-
+rhoZ    = np.array(data['scalar_1'])
+MO = 1. * Msun
+rhoOxy_inj = MO * rhoZ/1.e3
+Zabund = rhoOxy_inj/rho_gas
 
 egas0=eint
 density = rho_gas
 cloudy_H_mass_fraction = 1. / (1. + 0.1 * 3.971)
-rho0 = density*cloudy_H_mass_fraction/hydrogen_mass_cgs
+X = cloudy_H_mass_fraction
+Z  =  0.02
+Y = 1. - X - Z
+mean_metals_A = 16.
 
+rho0 = density*cloudy_H_mass_fraction/hydrogen_mass_cgs
+nH_val = rho0/(hydrogen_mass_cgs + m_e)
 
 logrho_arr = np.log10(nH_arr[:-1])
 logrho     = np.log10(rho0)
@@ -94,21 +108,34 @@ temp = (1.-wgt_rho)*(1.-wgt_egas)* T[tuple(idxegas)  , tuple(idxrho)]   +\
            wgt_rho *(1.-wgt_egas)* T[tuple(idxegas)  , tuple(idxrho+1)]  
 
 
+logTemp_arr = np.log10(temp_arr[:-1])
+logTgas     = np.log10(temp)
+delta_tgas  = logTemp_arr[1] -logTgas[0]
+idxTgas     = (np.floor((logTgas-np.amin(logTemp_arr))/delta_tgas)).astype('int')
+
+wgt_Tgas = (logTgas - (np.amin(logTemp_arr) + delta_tgas*idxTgas))/delta_tgas
+
+mu_val = (1.-wgt_rho)*(1.-wgt_Tgas)* Mu_mu[tuple(idxTgas)  , tuple(idxrho)]   +\
+           wgt_rho *    wgt_Tgas * Mu_mu[tuple(idxTgas+1), tuple(idxrho+1)] +\
+      (1. -wgt_rho)*    wgt_Tgas * Mu_mu[tuple(idxTgas+1), tuple(idxrho)]   +\
+           wgt_rho *(1.-wgt_Tgas)* Mu_mu[tuple(idxTgas)  , tuple(idxrho+1)]  
+
+n_e = (rho_gas/(hydrogen_mass_cgs + m_e)) * (1.0 - mu_val * (X + Y / 4. + Z / mean_metals_A)) / (mu_val - (m_e / (hydrogen_mass_cgs + m_e)))
+
 disk = (np.abs(zrange)/kpc<1.)
 
-output_folder = os.path.join(qhome, 'quokka/sims/N4Gpu/2pcNoAMR/Setonix/HiepData/')
+output_folder = os.path.join(qhome, 'quokka/sims/N4Gpu/2pcNoAMR/Setonix/Data_for_Yifei/')
 if not os.path.exists(output_folder):
-            print(output_folder)
-            os.makedirs(output_folder)
+    print(output_folder)
+    os.makedirs(output_folder)
 
-outputfile_name =os.path.join(output_folder, 'reduce_data.h5')
+outputfile_name =os.path.join(output_folder, 'reduce_data_20Myr.h5')
 
 hfo = h5py.File(outputfile_name, 'w')
-hfo.create_dataset('Rho' , data=rho_gas[:,:,disk])
-hfo.create_dataset('Vx'        , data=vx[:,:,disk])
-hfo.create_dataset('Vy'   , data=vy[:,:,disk])
-hfo.create_dataset('Vz'    , data=vz[:,:,disk])
+hfo.create_dataset('GasDensity' , data=rho_gas[:,:,disk])
+hfo.create_dataset('ne' , data=n_e[:,:,disk])
 hfo.create_dataset('Temp'    , data=temp[:,:,disk])
+hfo.create_dataset('Metallicity'    , data=Zabund[:,:,disk])
 
 hfo.create_dataset('X'  , data=xrange)
 hfo.create_dataset('Y'  , data=yrange)
@@ -116,4 +143,4 @@ hfo.create_dataset('Z'  , data=zrange[disk])
 hfo.create_dataset('Timestep', data=timestep)
 hfo.close()
 
-
+print("Average abundance in the disk=", np.mean(Zabund[:,:,disk]))

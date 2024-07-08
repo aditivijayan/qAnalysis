@@ -7,5 +7,6 @@ Myr = 1.e6 * yr_to_sec
 kmps = 1.e5
 boltzmann_constant_cgs    = 1.38e-16
 hydrogen_mass_cgs = 1.67e-24
+m_e = 9.10938e-28
 gamma = 5./3.
 Msun_pcsq = Msun/pc/pc
