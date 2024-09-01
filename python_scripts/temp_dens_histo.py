@@ -19,7 +19,7 @@ table_temp = np.logspace(1,  9, array.shape[2])
 
 parser = argparse.ArgumentParser(description='Plot slices for quokka plot files.')
 parser.add_argument('--input_folder', type=str, help='Path to input folder containing plt files')
-parser.add_argument('overwrite',  action='store_true', default=0, help='Overwrite existing files, default=0')
+parser.add_argument('overwrite',  action='store_true', default=1, help='Overwrite existing files, default=0')
 args = parser.parse_args()
 
 input_folder = args.input_folder
@@ -50,8 +50,18 @@ for egas in egas_arr:
     
 # temperature_table = interpolate.RectBivariateSpline(egas_arr, nH_arr, T)
 
-data_path = os.path.join(scratch, input_folder)
+data_path = os.path.join(scratch,'sims', input_folder)
 output_folder = os.path.join(h5_path, input_folder , 'TRhoHisto/')
+
+print(output_folder)
+os.chdir(data_path)
+list_file = glob.glob("plt*")
+if not os.path.exists(output_folder):
+    print(output_folder)
+    os.makedirs(output_folder)
+    print("Created output folder!\n")
+
+
 os.chdir(data_path)
 list_file = glob.glob("plt*")
 
@@ -84,12 +94,13 @@ def makeDTHisto(queue):
         timestep = ds.current_time.to('Myr')
 
         rho = np.array(data['gasDensity'])
-        Egas = np.array(data['gasInternalEnergy'])
+        Eint = np.array(data['gasInternalEnergy'])
+        egas    = np.array(data['gasEnergy'])
         
         nH    = rho/hydrogen_mass_cgs
         mass = rho * dVol
 
-        egas0 = Egas
+        egas0 = Eint
         rho0 = rho/hydrogen_mass_cgs
 
 
@@ -114,7 +125,7 @@ def makeDTHisto(queue):
         
         bins = 201
 
-        (dlow, dhigh)   = (1.e-6, 1.e2)
+        (dlow, dhigh)   = (1.e-6, 1.e4)
         (tlow, thigh)   = (10., 2.e10)
 
         zout = (np.abs(zrange)>kpc)
@@ -132,12 +143,6 @@ def makeDTHisto(queue):
                                     bins=[dedges, tedges], weights=mass_outflow.reshape(-1,1)[:,0])
         
         
-
-        
-        if not os.path.exists(output_folder):
-            print(output_folder)
-            os.makedirs(output_folder)
-        
         outputfile_name =os.path.join(output_folder, 'histo_' + f.split('plt')[1] + '.h5') 
 
         if not((os.path.exists(outputfile_name) and overwrite==0)):
@@ -152,7 +157,7 @@ def makeDTHisto(queue):
 
 queue      = Queue()
 start_time = ostime.time()
-listfile = list_file
+listfile = list_file[23:25]
 num = len(listfile)
 infile   = os.path.join(data_path, 'metal_uniform.in')
 infile_list = [infile]*num

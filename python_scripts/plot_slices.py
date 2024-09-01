@@ -17,10 +17,13 @@ table_nH   = np.logspace(-10, 4, array.shape[0])
 table_temp = np.logspace(1,  9, array.shape[2])
 
 parser = argparse.ArgumentParser(description='Plot slices for quokka plot files.')
-parser.add_argument('input_folder', type=str, help='Path to input folder containing plt files')
+parser.add_argument('--input_folder', type=str, help='Path to input folder containing plt files')
+parser.add_argument('--overwrite',  action='store_true', default=1, help='Overwrite existing files, default=0')
 args = parser.parse_args()
 
 input_folder = args.input_folder
+overwrite = args.overwrite
+
 
 i=0
 bins = 100
@@ -47,11 +50,17 @@ for egas in egas_arr:
     
 # temperature_table = interpolate.RectBivariateSpline(egas_arr, nH_arr, T)
 
-data_path = os.path.join(scratch, input_folder)
-output_folder = os.path.join(fig_path, input_folder + '/Slice/')
+data_path = os.path.join(scratch, 'sims/', input_folder)
+output_folder = os.path.join(fig_path, input_folder + 'Slice/')
+print(output_folder)
 os.chdir(data_path)
+print(data_path)
 list_file = glob.glob("plt*")
-
+if not os.path.exists(output_folder):
+    print(output_folder)
+    os.makedirs(output_folder)
+    print("Created output folder!\n")
+ 
 def makeSlicePlot(queue):
     while True:
         item = queue.get()
@@ -85,14 +94,19 @@ def makeSlicePlot(queue):
         data = ds.covering_grid(level=lev, left_edge=dom_min, dims=ds.domain_dimensions * fac)
 
         rho_gas = np.array(data['gasDensity'])
-        egas    = np.array(data['gasEnergy'])
         eint    = np.array(data['gasInternalEnergy'])
         vz = np.array(data['z-GasMomentum'])/rho_gas
-        vx = np.array(data['x-GasMomentum'])/rho_gas
-        vy = np.array(data['y-GasMomentum'])/rho_gas
+        #vx = np.array(data['x-GasMomentum'])/rho_gas
+        #vy = np.array(data['y-GasMomentum'])/rho_gas
+        
+        plane = (int)(ncells[1]/2)
 
-        egas0=egas
-        density = rho_gas
+        egas0=eint
+        rho_slice = rho_gas[:,plane,:]
+        eint_slice = eint[:,plane,:]
+
+        density = rho_slice
+        egas0=eint_slice
         cloudy_H_mass_fraction = 1. / (1. + 0.1 * 3.971)
         rho0 = density*cloudy_H_mass_fraction/hydrogen_mass_cgs
 
@@ -117,6 +131,9 @@ def makeSlicePlot(queue):
                 wgt_rho *(1.-wgt_egas)* T[tuple(idxegas)  , tuple(idxrho+1)]  
 
         
+        print("Temp estimated!\n")
+        print("Total time till Temp= %s seconds ---" % (ostime.time() - start_time))
+
         fig, ax = plt.subplots(1, 3, gridspec_kw = {'wspace':0.02, 'hspace':0.02},figsize=(12, 32))
     
         cbarx = 0.13
@@ -129,14 +146,14 @@ def makeSlicePlot(queue):
         plane = (int)(ncells[1]/2)
        
 
-        plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_gas[:,plane,:]/mp),\
+        plot = ax[0].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(rho_slice/mp),\
                             norm=mcolors.LogNorm(vmin=1.e-6, vmax=4.e2),
                             cmap='Blues')
         cax = fig.add_axes([cbarx, cbary, cblen, cbheight])
         fig.colorbar(plot, cax=cax, orientation='horizontal', ticks=(1.e-6,  1.e-2, 1., 1.e2))
         cax.xaxis.set_ticks_position('top')
         cax.set_title(r" $\rho$" + "\n" + "[g cm$^{-3}$]")
-
+       
 
         # plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(eint[:,plane,:]),\
         #                     norm=mcolors.LogNorm(vmin=9.e-21, vmax=5.e-10),
@@ -148,7 +165,7 @@ def makeSlicePlot(queue):
         # ax[1].tick_params(axis='y', labelleft=False, labelright=False, right=False, left=True)
         # ax[1].tick_params(axis='y', labelleft=False, labelright=False, right=False, left=True)
 
-        plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp[:,plane,:]),\
+        plot = ax[1].pcolormesh(yrange/kpc,zrange/kpc, np.transpose(temp),\
                     norm=mcolors.LogNorm(vmin=2.e2, vmax=5.e7),
                     cmap='afmhot')
         cax = fig.add_axes([cbarx + dx1, cbary, cblen, cbheight])
@@ -170,52 +187,16 @@ def makeSlicePlot(queue):
         
         plt.setp(ax, 'ylim', (-3.9, 4.0))
         plt.title('Lev=%d'%(lev))
-        '''
-        fig, ax = plt.subplots(1, 2, gridspec_kw = {'wspace':0.02, 'hspace':0.02},figsize=(16,8))
-        i=0
-
-        cbarx = 0.13
-        cbheight = 0.04
-        cbary = 0.89
-        cblen = 0.3
-        dx1 = 0.13
-        cbtitlex = 0.1
-        cbtitley = 16.5
-        plane = (int)(ncells[1]/2)
-        plane = 0
-
-
-
-        plot = ax[0].pcolormesh(yrange/kpc,xrange/kpc, np.transpose(temp[:,:,plane]),\
-                            norm=mcolors.LogNorm(vmin=9.e1, vmax=5.e8),
-                            cmap='afmhot')
-        cax = fig.add_axes([cbarx, cbary, cblen, cbheight])
-        fig.colorbar(plot, cax=cax, orientation='horizontal', ticks=(10, 1.e4, 1.e8))
-        cax.xaxis.set_ticks_position('top')
-        cax.set_title(r" $T$" + "\n" + r" [K]")
-
-        plot = ax[1].pcolormesh(yrange/kpc,xrange/kpc, np.transpose(vz[:,:,plane])/kmps,\
-                            vmin=-110., vmax=110.,
-                            cmap='seismic')
-        cax = fig.add_axes([cbarx + 3.*dx1, cbary, cblen, cbheight])
-        fig.colorbar(plot, cax=cax, orientation='horizontal', ticks=(-100., 0.0, 100.))
-        cax.xaxis.set_ticks_position('top')
-        cax.set_title(r" vz" + "\n" + " [kmps]")
-        ax[1].tick_params(axis='y', labelleft=False, labelright=False, right=False, left=True)
-        # ax[0].plot(xrange[88]/kpc, yrange[39]/kpc, '*', color='red', markersize=12)
-        ax[0].text(0.5, 0.5, '%.2f'%(ds.current_time.to('Myr')))
-        '''
-        if not os.path.exists(output_folder):
-            print(output_folder)
-            os.makedirs(output_folder)
         
+       
         outputfile_name =os.path.join(output_folder, 'density-vz-' + f.split('plt')[1] + '.jpeg')
         plt.savefig(outputfile_name, bbox_inches='tight', dpi=160)
+        print('Written file----->',outputfile_name)
         
         
 queue      = Queue()
 start_time = ostime.time()
-listfile = list_file
+listfile = list_file[17:27]
 num = len(listfile)
 infile   = os.path.join(data_path, 'metal_uniform.in')
 infile_list = [infile]*num

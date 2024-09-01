@@ -11,7 +11,7 @@
 #PBS -l wd
 
 
-file_name=("sims/AddSNMass/NoMass/"  "sims/AddSNMass/ExtDir" "sims/AddSNMass/HighResAddMass/")
+file_name=("GasGravity/Production2pc/R8/")
 for file in "${file_name[@]}"
 do
   python temp_dens_histo.py  --input_folder "$file"

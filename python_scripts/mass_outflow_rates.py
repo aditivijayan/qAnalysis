@@ -19,7 +19,7 @@ table_temp = np.logspace(1,  9, array.shape[2])
 
 parser = argparse.ArgumentParser(description='Plot slices for quokka plot files.')
 parser.add_argument('--input_folder', type=str, help='Path to input folder containing plt files')
-parser.add_argument('overwrite',  action='store_true', default=0, help='Overwrite existing files, default=0')
+parser.add_argument('--overwrite',  action='store_true', default=1, help='Overwrite existing files, default=0')
 args = parser.parse_args()
 
 input_folder = args.input_folder
@@ -50,7 +50,7 @@ for egas in egas_arr:
     
 # temperature_table = interpolate.RectBivariateSpline(egas_arr, nH_arr, T)
 
-data_path = os.path.join(scratch, input_folder)
+data_path = os.path.join(scratch, 'sims', input_folder)
 output_folder = os.path.join(h5_path, input_folder , 'PhaseOutflowRates/')
 os.chdir(data_path)
 list_file = glob.glob("plt*")
@@ -88,14 +88,13 @@ def getPhaseOutflowRate(queue):
         data = ds.covering_grid(level=lev, left_edge=dom_min, dims=ds.domain_dimensions * fac)
 
         rho_gas = np.array(data['gasDensity'])
-        egas    = np.array(data['gasEnergy'])
-        eint    = np.array(data['gasInternalEnergy'])
+        Eint    = np.array(data['gasInternalEnergy'])
         vz = np.array(data['z-GasMomentum'])/rho_gas
         vx = np.array(data['x-GasMomentum'])/rho_gas
         vy = np.array(data['y-GasMomentum'])/rho_gas
-        rhoZ = np.array(data['scalar_1'])
+        rhoZ = np.array(data['scalar_0'])
         
-        egas0=egas
+        egas0=Eint
         density = rho_gas
         cloudy_H_mass_fraction = 1. / (1. + 0.1 * 3.971)
         rho0 = density*cloudy_H_mass_fraction/hydrogen_mass_cgs
@@ -135,8 +134,8 @@ def getPhaseOutflowRate(queue):
         warm = (temp<2.e4)
 
         zout  = (vz*zrange>0.0)
-        hout  = hot * zout
-        wout  = warm * zout
+        hout  = hot #* zout
+        wout  = warm #* zout
        
         #Mass Outflow rate#
         total_mass_outflow_rate = np.sum(np.ma.array(net_mass_outflow_rate, mask=~zout), axis=(0,1)).data  
