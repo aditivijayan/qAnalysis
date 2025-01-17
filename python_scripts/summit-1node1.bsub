@@ -12,7 +12,7 @@
 
 #BSUB -P ast196
 #BSUB -W 02:00
-#BSUB -nnodes 32
+#BSUB -nnodes 2
 #BSUB -alloc_flags smt4
 #BSUB -J temp-histo
 #BSUB -o temp-histo-o.%J

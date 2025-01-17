@@ -12,19 +12,16 @@
 
 
 #BSUB -P ast196
-#BSUB -W 02:00
-#BSUB -nnodes 8
+#BSUB -W 05:00
+#BSUB -nnodes 1
 #BSUB -alloc_flags smt4
-#BSUB -J eloading
-#BSUB -o eload-o.%J
-#BSUB -e eload-e.%J
+#BSUB -J slice
+#BSUB -o slice-o.%J
+#BSUB -e slice-e.%J
 
 
 module unload python
 module load miniforge3/23.11.0
 source activate ytenv
-file_name=(  "GasGravity/Production2pc/R4/" )
-for file in "${file_name[@]}"
-do
-  jsrun  -r6 -a1 -c1 python3 main.py --input_folder  "$file" 
-done
+file_name=(  "GasGravity/Production2pc/R4/"  "GasGravity/Production2pc/R8/")
+jsrun  -r6 -a1 -c1 python3 main.py --input_folder  GasGravity/Production2pc/R4/ --N 1 --i 0 
