@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2025-01-17 11:35:11:
+   Job Id:             132452083.gadi-pbs
+   Project:            jh2
+   Exit Status:        137 (Linux Signal 9 SIGKILL Kill, unblockable)
+   Service Units:      364.37
+   NCPUs Requested:    672                    NCPUs Used: 672             
+                                           CPU Time Used: 00:11:40        
+   Memory Requested:   1.56TB                Memory Used: 103.46GB        
+   Walltime requested: 24:00:00            Walltime Used: 00:16:16        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

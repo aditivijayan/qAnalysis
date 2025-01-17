@@ -1,0 +1,14 @@
+Total time= 0.36007237434387207 seconds ---
+
+======================================================================================
+                  Resource Usage on 2025-01-17 12:20:54:
+   Job Id:             132458012.gadi-pbs
+   Project:            jh2
+   Exit Status:        0
+   Service Units:      4.85
+   NCPUs Requested:    672                    NCPUs Used: 672             
+                                           CPU Time Used: 00:00:06        
+   Memory Requested:   1.56TB                Memory Used: 940.06MB        
+   Walltime requested: 24:00:00            Walltime Used: 00:00:13        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

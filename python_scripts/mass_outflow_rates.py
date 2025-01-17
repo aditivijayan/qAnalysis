@@ -88,14 +88,13 @@ def getPhaseOutflowRate(queue):
         data = ds.covering_grid(level=lev, left_edge=dom_min, dims=ds.domain_dimensions * fac)
 
         rho_gas = np.array(data['gasDensity'])
-        egas    = np.array(data['gasEnergy'])
         eint    = np.array(data['gasInternalEnergy'])
         vz = np.array(data['z-GasMomentum'])/rho_gas
         vx = np.array(data['x-GasMomentum'])/rho_gas
         vy = np.array(data['y-GasMomentum'])/rho_gas
-        rhoZ = np.array(data['scalar_1'])
-        
-        egas0=egas
+        rhoZ = np.array(data['scalar_0'])
+        eint[eint<0.0] = 1.e-25
+        egas0=eint
         density = rho_gas
         cloudy_H_mass_fraction = 1. / (1. + 0.1 * 3.971)
         rho0 = density*cloudy_H_mass_fraction/hydrogen_mass_cgs
@@ -134,7 +133,7 @@ def getPhaseOutflowRate(queue):
         hot = (temp>1.e6)
         warm = (temp<2.e4)
 
-        zout  = (vz*zrange>0.0)
+        zout  = ((vz)*(zrange)>0.0)
         hout  = hot * zout
         wout  = warm * zout
        
@@ -148,11 +147,14 @@ def getPhaseOutflowRate(queue):
         hot_metal_outflow_rate    = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~hout), axis=(0,1)).data 
         warm_metal_outflow_rate   = np.sum(np.ma.array(net_oxygen_outflow_rate_inj, mask=~wout), axis=(0,1)).data 
         
+        total_scalar_value        = np.sum(rhoZ * dVol, axis=(0,1) )
+        total_mass                = np.sum(rho_gas  * dVol, axis=(0,1))
+
         if not os.path.exists(output_folder):
             print(output_folder)
             os.makedirs(output_folder)
         
-        outputfile_name =os.path.join(output_folder, 'phase_outflow_' + f.split('plt')[1] + '.h5')
+        outputfile_name =os.path.join(output_folder, 'phase_totoutflow_' + f.split('plt')[1] + '.h5')
 
         if not((os.path.exists(outputfile_name) and overwrite==0)):
             hfo = h5py.File(outputfile_name, 'w')
@@ -163,6 +165,9 @@ def getPhaseOutflowRate(queue):
             hfo.create_dataset('WarmMetOutflowRate'  , data=warm_metal_outflow_rate)
             hfo.create_dataset('HotMetOutflowRate'            , data=hot_metal_outflow_rate)
             hfo.create_dataset('TotalMetOutflowRate'            , data=total_metal_outflow_rate)
+
+            hfo.create_dataset('TotalScalarValue'            , data=total_scalar_value)
+            hfo.create_dataset('TotalMass'            , data=total_mass)
 
             hfo.create_dataset('Zrange'  , data=zrange)
             hfo.create_dataset('Timestep', data=timestep)

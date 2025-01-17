@@ -1,0 +1,26 @@
+/home/120/av5889/.bashrc: line 52: spack/share/spack/setup-env.sh: No such file or directory
+Loading jupyterlab/3.4.3-py3.9
+  Loading requirement: intel-mkl/2020.3.304 python3/3.9.2
+yt : [INFO     ] 2025-01-17 11:18:59,619 Parameters: current_time              = 689476158705292.1
+yt : [INFO     ] 2025-01-17 11:18:59,620 Parameters: domain_dimensions         = [ 512  512 4096]
+yt : [INFO     ] 2025-01-17 11:18:59,620 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2025-01-17 11:18:59,620 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2025-01-17 11:25:22,714 Parameters: current_time              = 679648095118585.5
+yt : [INFO     ] 2025-01-17 11:25:22,715 Parameters: domain_dimensions         = [ 512  512 4096]
+yt : [INFO     ] 2025-01-17 11:25:22,715 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2025-01-17 11:25:22,716 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+yt : [INFO     ] 2025-01-17 11:32:38,301 Parameters: current_time              = 501629923546784.56
+yt : [INFO     ] 2025-01-17 11:32:38,301 Parameters: domain_dimensions         = [ 512  512 4096]
+yt : [INFO     ] 2025-01-17 11:32:38,302 Parameters: domain_left_edge          = [ 0.0000e+00  0.0000e+00 -1.2072e+22]
+yt : [INFO     ] 2025-01-17 11:32:38,302 Parameters: domain_right_edge         = [3.0180e+21 3.0180e+21 1.2072e+22]
+
+------------------------------------------------------------------------
+Job 132452083 has exceeded memory allocation on node gadi-cpu-clx-1926.gadi.nci.org.au
+Process "bash", pid 1129122, rss 2797568, vmem 24080384
+Process "pbs_demux", pid 1129131, rss 1695744, vmem 38899712
+Process "132452083.gadi-", pid 1129248, rss 2314240, vmem 10362880
+Process "python", pid 1129253, rss 110798778368, vmem 124431953920
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+/local/spool/pbs/mom_priv/jobs/132452083.gadi-pbs.SC: line 13: 1129253 Killed                  python cong_loading_fac1.py
